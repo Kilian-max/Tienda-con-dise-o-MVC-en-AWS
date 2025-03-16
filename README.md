@@ -3,6 +3,7 @@
 - [Descripción del Proyecto](#descripción-del-proyecto)
 - [Objetivos](#objetivos)
 - [Pasos a Seguir](#pasos-a-seguir)
+- [Autores](#autores)
 
 ## Descripción del Proyecto
 
@@ -138,3 +139,6 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
    - Comprobamos desde el navegador con la IP pública  si se visualiza la página
    ![Captura desde 2025-03-16 18-01-48](https://github.com/user-attachments/assets/8fb86007-f34f-45b5-9a84-0ca77ecd250d)
 
+## Autores
+
+- [Kilian Gimenez Boncompte](https://github.com/Kilian-max)
