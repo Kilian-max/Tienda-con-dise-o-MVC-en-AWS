@@ -1,1 +1,1 @@
-# Tienda-con-dise-o-MVC-en-AWS
+# Tienda-con-diseño-MVC-en-AWS
