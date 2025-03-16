@@ -145,11 +145,11 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
 La **IP pública** de la máquina es [34.235.76.199](http://34.235.76.199). Puedes abrirla en tu navegador.
 
 ### Usuario
-- **Gmail**: Carlos@gmail.com
+- **Gmail**: carlos@gmail.com
 - **Contraseña**: carlos
 
 ### Administrador
-- **Gmail**: Kilian@gmail.com
+- **Gmail**: kilian@gmail.com
 - **Contraseña**: kilian
 
 ## Autores
