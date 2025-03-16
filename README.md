@@ -31,7 +31,8 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
 
 1. **Creación de la instancia EC2**
    - Seleccionamos que la instancia se llame "mi página web" y la imagen sea una Ubuntu
-   - *(Aquí irá la foto)*
+   ![Captura desde 2025-03-16 16-53-14](https://github.com/user-attachments/assets/bfc8b293-fee9-4aaa-9c85-e21e5325fc8c)
+
 
 2. **Configuración de la seguridad**
    - Creamos un par de claves para poder conectarnos con SSH
@@ -106,8 +107,25 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
      ```
    - Hacemos que siempre que se encienda la máquina se levanten los contenedores:
      ```
-     # Comando necesario
+     sudo systemctl enable docker
      ```
+    - Crea un archivo de servicio systemd para tu proyecto Docker Compose. Por ejemplo, en /etc/systemd/system/docker-compose-app.service:
+      ```
+      [Unit]
+      Description=Docker Compose Application
+      After=docker.service
+      Requires=docker.service
+      
+      [Service]
+      WorkingDirectory="/home/ubuntu/Entorno Desarrollo PHP
+      ExecStart=/usr/local/bin/docker-compose up --remove-orphans
+      ExecStop=/usr/local/bin/docker-compose down
+      Restart=always
+      TimeoutSec=300
+      
+      [Install]
+      WantedBy=multi-user.target
+      ```
 
 8. **Verificación del despliegue**
    - Comprobamos desde el navegador con la IP pública si se visualiza la página
