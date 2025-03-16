@@ -155,7 +155,7 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
 
 ## Importante
 
-La **IP pública** de la máquina es [34.235.76.199](http://34.235.76.199).
+La **IP pública** de la máquina es [34.235.76.199](http://34.235.76.199) o el dominio [kilianGG.zapto.org](http://kilianGG.zapto.org)
 
 ### Usuario
 - **Gmail**: carlos@gmail.com
