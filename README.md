@@ -36,13 +36,16 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
 
 2. **Configuración de la seguridad**
    - Creamos un par de claves para poder conectarnos con SSH
-   - *(Aquí irá la foto)*
+   ![Captura desde 2025-03-16 16-53-43](https://github.com/user-attachments/assets/4873f5a3-3dcd-4eb5-af5e-90230a0b235c)
+
    - En el grupo de seguridad seleccionamos que permita el paso de SSH, HTTP y HTTPS desde todas las IPs
-   - *(Aquí irá la foto)*
+   ![Captura desde 2025-03-16 16-54-13](https://github.com/user-attachments/assets/9feb3b02-ab67-4704-ab7c-591d4b6bd1d8)
+
 
 3. **Configuración de la IP**
    - Creamos una IP elástica y se la asignamos a la instancia que hemos creado
-   - *(Aquí irá la foto)*
+   ![Captura desde 2025-03-16 16-54-49](https://github.com/user-attachments/assets/a420a328-f3b8-49e9-a329-2fc23f3c1f5d)
+
 
 4. **Conexión SSH a la instancia**
    - En nuestra terminal vamos a descargas (donde tendremos el par de claves)
@@ -109,7 +112,7 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
      ```
      sudo systemctl enable docker
      ```
-    - Crea un archivo de servicio systemd para tu proyecto Docker Compose. Por ejemplo, en /etc/systemd/system/docker-compose-app.service:
+   - Crea un archivo de servicio systemd para tu proyecto Docker Compose. Por ejemplo, en /etc/systemd/system/docker-compose-app.service:
       ```
       [Unit]
       Description=Docker Compose Application
@@ -128,5 +131,10 @@ Lo primero de todo ha sido hacer los códigos de PHP y HTML de la página en con
       ```
 
 8. **Verificación del despliegue**
-   - Comprobamos desde el navegador con la IP pública si se visualiza la página
-   - *(Aquí irá la foto)*
+   - Reiniciamos la máquina
+     ```
+     sudo reboot
+     ```
+   - Comprobamos desde el navegador con la IP pública  si se visualiza la página
+   ![Captura desde 2025-03-16 18-01-48](https://github.com/user-attachments/assets/8fb86007-f34f-45b5-9a84-0ca77ecd250d)
+
