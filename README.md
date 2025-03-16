@@ -30,9 +30,12 @@ La plataforma permite a los usuarios navegar por un catálogo de videojuegos, ve
 Para esta práctica se necesitan dos tablas de base de datos, una para almacenar los productos (Productos) y otra que almacena los Usuarios/Administradores (Login).
 
 **Login**
+
 ![image](https://github.com/user-attachments/assets/54cc2ab0-da09-4b4e-aa19-1ad167487c9c)
 
+
 **Productos**
+
 ![image](https://github.com/user-attachments/assets/0ce9383f-84bb-4eaf-af61-d93870d1a0bc)
 
 
